@@ -1,0 +1,76 @@
+   
+    html,body{
+        margin:0 !important;
+    }    
+    
+@media only screen and (min-width: 993px)
+.container {
+    width: 100% !important;
+}    
+    
+    @media only screen and (min-width: 601px)
+.container {
+    width: 100% !important;
+}
+   
+    /*--
+    .container {
+    margin: 0 auto;
+    max-width: 100% !important;
+    width: 100% !important;  /*---don't do it it will add extra margin to the right of the page 
+}  ----*/
+    
+.row {
+
+     margin-bottom: 0 !important;
+}    
+/*---custome class---*/    
+    .mj{
+        margin:10px;
+    }
+    
+/*----custom padding ---*/
+    .pj{
+        padding:150px;
+    }
+    
+    a{
+        text-decoration: none !important;
+        color:white;
+    }
+    
+    @media screen and (max-width:768px){
+        i.small {
+    font-size: 12px !important;
+}
+        
+    }
+    
+   @media screen and (max-width:550px){
+  .pj{
+        padding:100px;
+    }
+       h1{
+           font-size: 45px;
+
+       } 
+       
+        h2{
+           font-size: 35px;
+
+       }
+    }
+
+    
+    @media only screen and (min-width: 993px){
+.container {
+    width: 100% !important;
+}
+    }
+    
+    
+    @media only screen and (min-width: 601px){
+.container {
+    width: 100% !important;
+}
+    }
